@@ -91,3 +91,17 @@ header {
     justify-content: space-between;
     
 }
+/* Featured Section End */
+
+.service-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    margin: 128px 240px 0;
+    text-align: center;
+    padding: 86px 117px 0;
+}
+.service-title {
+    margin-top: 24px;
+}
