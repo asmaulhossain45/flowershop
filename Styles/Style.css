@@ -6,12 +6,38 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.header-title {
-    padding: 60px 140px 0;
+.header-section {
+    padding: 197px 0px 0px 240px;
 
+}
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    max-width: 700px;
+}
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 580px;
+    margin: 32px 0 32px;
+}
+.button {
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-weight: 600;
+    padding: 20px 43px;
+    border: 0;
 }
 
 .header-img {
-    height: 200px;
-    padding: 50px 140px 0px 0px;
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    padding: 50px 0px 0px 0;
 }
+/* Header Section End */
