@@ -4,13 +4,28 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+nav {
+    display: flex;
+    text-decoration: none;
+    padding: 2px 2px 2px;
+}
+nav a {
+    display: flex;
+    text-decoration: none;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    font-weight: 600;
+    padding: 15px 30px;
+    margin-right: 10px;
+}
 header {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
 }
 .header-section {
-    padding: 197px 0px 0px 240px;
+    padding: 10px 0px 0px 100px;
 
 }
 .header-title {
@@ -19,6 +34,7 @@ header {
     font-size: 80px;
     font-weight: 800;
     max-width: 700px;
+    margin-top: 100px;
 }
 .header-description {
     color: rgba(39, 39, 39, 0.60);
