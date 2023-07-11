@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0 0 0 0;
 }
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -93,19 +93,22 @@ header {
 }
 /* Featured Section End */
 
-.service-container {
+
+.margin {
+    margin: 128px 70px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    display: flex;
-    justify-content: space-around;
-    margin: 128px 240px 0px;
-    text-align: center;
-    padding: 86px 117px 0;
 }
+.service-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 86px 232px 87px;
+    text-align: center;
+}
+
 .service-title {
     margin-top: 24px;
 }
-
 /* Services Section End */
 
 .hot-deal-container {
@@ -130,8 +133,6 @@ header {
     max-width: 500px;
     margin: 24px 0 32px;
 }
-
-
 .hot-deal-img {
     width: 318px;
     height: 420px;
@@ -152,19 +153,37 @@ header {
 
 
 .deals-container {
-    text-align: center;
-    width: 100%;
-    margin: 128px 0;
+    margin: 128px 70px;
+    border-radius: 8px;
     background-image: url('../Images/Rectangle\ 9.png');
     background-repeat: no-repeat;
-    background-position:center;
-    padding: 22px 234px 279px;
+    text-align: center;
 }
-.input [type=text]{
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 112px;
+}
+.deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    padding: 0 500px;
+}
+section input{
     border-radius: 8px;
     background: #FFF;
-    padding: 23px 513px 12px 22px;
-    margin-top: 48px;
+    padding: 20px 510px 20px 20px;
+    margin-bottom: 121px;
+    margin-right: 10px;
+    border: none;
 }
 
 
@@ -188,7 +207,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    padding: 0 500px 128px;
+    padding: 0 500px 40px;
     column-gap: 32px;
 }
 .flower {
