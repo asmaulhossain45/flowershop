@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+header {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+}
+.header-title {
+    padding: 60px 140px 0;
+
+}
+
+.header-img {
+    height: 200px;
+    padding: 50px 140px 0px 0px;
+}
