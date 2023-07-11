@@ -1,6 +1,9 @@
 *{
     margin: 0 0 0 0;
 }
+body {
+    font-family: 'Lato', sans-serif;
+}
 header {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
