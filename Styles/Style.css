@@ -105,3 +105,38 @@ header {
 .service-title {
     margin-top: 24px;
 }
+
+/* Services Section End */
+
+.hot-deal-container {
+    margin-top: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-between;
+}
+.hot-deal {
+    text-align: center;
+    padding: 230px 0 0 223px;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.hot-deal-description {
+    max-width: 500px;
+    margin: 24px 0 32px;
+}
+
+
+.hot-deal-img {
+    width: 318px;
+    height: 420px;
+    padding: 100px 229px 100px 0;
+}
+.off {
+    color: #E55473;
+}
