@@ -98,7 +98,7 @@ header {
     background: rgba(39, 39, 39, 0.05);
     display: flex;
     justify-content: space-around;
-    margin: 128px 240px 0;
+    margin: 128px 240px 0px;
     text-align: center;
     padding: 86px 117px 0;
 }
@@ -138,5 +138,59 @@ header {
     padding: 100px 229px 100px 0;
 }
 .off {
+    color: #E55473;
+}
+
+/* Hot Deal Section End */
+
+.insta-img {
+    display: flex;
+    margin: 48px 240px 0;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+.deals-container {
+    text-align: center;
+    width: 100%;
+    margin: 128px 0;
+    background-image: url('../Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    padding: 22px 234px 279px;
+}
+.input [type=text]{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 23px 513px 12px 22px;
+    margin-top: 48px;
+}
+
+
+footer {
+    background: #111010;
+}
+.footer-title {
+    padding-top: 128px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 500px 128px;
+    column-gap: 32px;
+}
+.flower {
     color: #E55473;
 }
